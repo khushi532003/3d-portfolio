@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
+import brochurePdf from "../assets/brochure/khushi.pdf";
 import BallParticle from "./canvas/BallParticle";
 import Setup from "./canvas/setup/Setup";
 
@@ -78,7 +79,7 @@ const Hero = () => {
 
   {/* Download Brochure */}
   <a
-    href="/Khushi-Kashyap-Brochure.pdf"
+    href={brochurePdf}
     download
     className="
       px-5 py-3
