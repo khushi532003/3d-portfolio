@@ -4,8 +4,8 @@ import { fadeIn, textVariant } from '../utils/motion'
 import { motion } from 'framer-motion'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
-import { Tilt } from 'react-tilt'
 import { github } from '../assets'
+import Tilt from './Tilt'
 
 
 const ProjectCard = ({index, name, description, tags, image, source_code_link})=>{

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { fadeIn } from '../utils/motion';
 import { github } from '../assets';
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion'
+
 import { projects } from '../constants';
 
 const images = [
