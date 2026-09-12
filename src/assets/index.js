@@ -23,6 +23,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import framerMotion from "./tech/framerMotion.webp";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import nextjs from "./tech/nextjs.png";
@@ -70,6 +71,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  framerMotion,
   meta,
   shopify,
   starbucks,

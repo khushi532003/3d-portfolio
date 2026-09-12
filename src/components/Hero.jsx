@@ -93,7 +93,7 @@ const Hero = () => {
       hover:scale-105
     "
   >
-    Download Brochure
+    Download CV
   </a>
 
 </div>
