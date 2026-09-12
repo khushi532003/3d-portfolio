@@ -3,6 +3,7 @@ import { fadeIn } from '../utils/motion';
 import { github } from '../assets';
 
 import { projects } from '../constants';
+import Tilt from './Tilt';
 
 const images = [
   '/images/dragon_1.jpg',

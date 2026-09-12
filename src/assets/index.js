@@ -6,7 +6,16 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import gtf from "./company/gtf.svg";
+import paras from "./company/pp.png";
+import linkIcon from "./linkIcon.png";
+import portfolioImage from "./projects/portfolioImage.png";
+import characterControllerImage from "./projects/characterControllerImage.png";
+import gvr3dImage from "./projects/gvr3dImage.png";    
+import origenImage from "./projects/origenImage.png";
+import npsImage from "./projects/npsImage.png";
+import northwindImage from "./projects/northwindImage.png";
+import shrivrindaImage from "./projects/shrivrindaImage.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -16,6 +25,9 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
+import reactThreeFiber from "./tech/reactThreeFiber.png";
+import gsap from "./tech/gsap.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -43,11 +55,17 @@ export {
   docker,
   figma,
   git,
+  gtf,
+  paras,
   html,
   javascript,
   mongodb,
   nodejs,
+  linkIcon,
   reactjs,
+  nextjs,
+  reactThreeFiber,
+  gsap,
   redux,
   tailwind,
   typescript,
@@ -59,4 +77,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolioImage,
+  characterControllerImage,
+  gvr3dImage,
+  origenImage,
+  npsImage,
+  northwindImage,
+  shrivrindaImage,
 };

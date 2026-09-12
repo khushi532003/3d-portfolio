@@ -69,10 +69,12 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            I'm a passionate React JS Frontend Developer with over 3 years of experience crafting responsive, interactive, and visually engaging web applications. My core skills include <strong>React.js, JavaScript, TypeScript, HTML, CSS</strong>, and styling frameworks like <strong>Tailwind CSS and Bootstrap</strong>. I also specialize in <strong>React Three Fiber</strong> for building immersive 3D web experiences.
+           I'm a React.js Frontend Developer with 3.5+ years of experience building responsive, interactive, and visually engaging web applications. I specialize in React.js, Next.js, TypeScript, JavaScript, HTML, CSS, and modern styling frameworks like Tailwind CSS and Bootstrap.
 
             <br /> <br />
-            I collaborate effectively to deliver scalable, intuitive solutions—from clean UI designs to advanced 3D interfaces—that drive real-world impact.
+          I also work with Three.js and React Three Fiber to create immersive 3D web experiences, interactive interfaces, and engaging animations.
+           <br /> <br />
+           I focus on building clean, scalable, responsive, and user-friendly frontend experiences with strong UI and smooth interactions.
           </motion.p>
 
           <div className="mt-20 flex flex-wrap gap-10">

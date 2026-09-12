@@ -8,6 +8,10 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
+  reactThreeFiber,
+  gsap,
+  paras,
   redux,
   tailwind,
   nodejs,
@@ -16,12 +20,20 @@ import {
   figma,
   docker,
   meta,
+  gtf,
   starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
+  portfolioImage,
+  characterControllerImage,
+  gvr3dImage,
+  origenImage,
+  npsImage,
+  northwindImage,
+  shrivrindaImage,
   threejs,
 } from "../assets";
 
@@ -42,116 +54,88 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Designer",
+    title: "Interactive Experiences",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "3D Web Experiences",
     icon: mobile,
   },
   {
-    title: "React JS Developer",
+    title: "Frontend Development",
     icon: backend,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-
+  { name: "React JS", icon: reactjs },
+  { name: "Next JS", icon: nextjs },
+  { name: "TypeScript", icon: typescript },
+  { name: "JavaScript", icon: javascript },
+  { name: "Three JS", icon: threejs },
+  { name: "React Three Fiber", icon: reactThreeFiber },
+  { name: "GSAP", icon: gsap },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Git", icon: git },
 ];
 
 const experiences = [
+  {
+    title: "React JS Developer",
+    company_name: "GTF Technologies",
+    icon: gtf,
+    iconBg: "#383E56",
+    date: "Jan 2025 - Present",
+    points: [
+      "Developing production-ready real-estate websites using React.js, Next.js, TypeScript, Tailwind CSS, and modern frontend technologies.",
+      "Independently handling frontend development for multiple client websites, including UI implementation, responsive layouts, reusable components, animations, and cross-browser compatibility.",
+      "Built and contributed to modern, responsive web experiences for real-estate brands including Origen Realty, NPS Developers, North Wind Estates, Shri Vrinda, Runal Group, Great Value Realty, and Anantraj Limited.",
+      "Collaborating with designers and developers to translate UI designs into scalable and high-quality frontend experiences.",
+      "Working with Git and GitHub for version control and collaborative development.",
+    ],
+  },
+
+  {
+    title: "Frontend Developer",
+    company_name: "Paras Parivaar",
+    icon: paras,
+    iconBg: "#383E56",
+    date: "May 2024 - Jan 2025",
+    points: [
+      "Developed responsive company and business websites using React.js, Tailwind CSS, JavaScript, HTML, and CSS.",
+      "Worked as a Frontend Developer and Team Lead, coordinating frontend tasks and supporting team members during development.",
+      "Built reusable UI components and responsive layouts with a focus on clean design and cross-browser compatibility.",
+      "Collaborated with the team to deliver projects within defined timelines and maintain development quality.",
+    ],
+  },
+
+  {
+    title: "Web Designer",
+    company_name: "Adaccurate Pvt. Ltd.",
+    icon: tesla,
+    iconBg: "#383E56",
+    date: "Jul 2023 - May 2024",
+    points: [
+      "Designed and developed responsive websites for clients using HTML, CSS, JavaScript, jQuery, and Bootstrap.",
+      "Worked on website UI, responsive layouts, cross-browser compatibility, and frontend implementation.",
+      "Handled website design and frontend requirements for multiple client projects.",
+      "Worked on SEO-focused website structure and frontend best practices.",
+    ],
+  },
+
   {
     title: "Web Designer",
     company_name: "Core Industrial Pvt. Ltd.",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "November 2022 - July 2023",
+    date: "Nov 2022 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Designer",
-    company_name: "Adaccurate Pvt. Ltd.",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "July 2023 - May 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Paras Parivaar",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "May 2024 - Jan 2025",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React JS Frontend Developer",
-    company_name: "GTF Technologies",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2025 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed responsive company websites using HTML, CSS, JavaScript, and jQuery.",
+      "Created user-friendly website layouts and implemented responsive designs across different screen sizes.",
+      "Maintained and updated existing websites based on business and design requirements.",
+      "Focused on clean UI implementation, browser compatibility, and website usability.",
     ],
   },
 ];
@@ -185,68 +169,192 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An interactive 3D developer portfolio built with React, React Three Fiber, Three.js, and modern animation libraries. Designed to showcase frontend development, 3D experiences, and interactive web development skills.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolioImage,
+    source_code_link:
+      "https://github.com/khushi532003/3d-portfolio",
+    live_demo_link:
+      "https://3d-portfolio-xv8l.vercel.app/",
+  },
+
+  {
+    name: "3D Character Controller",
+    description:
+      "An interactive third-person 3D character experience built with React Three Fiber and Three.js, featuring character movement, 3D scene interaction, camera controls, and immersive web-based gameplay mechanics.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "drei",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: characterControllerImage,
+    source_code_link:
+      "https://github.com/khushi532003/character-controller",
+    live_demo_link:
+      "https://character-controller-chi.vercel.app/",
+  },
+
+  {
+    name: "GVR 3D Experience",
+    description:
+      "An interactive 3D web experience featuring a custom animated water effect created with Three.js, combining immersive visuals with a modern real-estate presentation.",
+    tags: [
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webgl",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gvr3dImage,
+    live_demo_link:
+      "https://gvr3d.netlify.app/",
+  },
+
+  {
+    name: "Origen Realty",
+    description:
+      "Production real-estate website where I independently handled almost the complete frontend development, including responsive UI implementation, reusable components, interactions, animations, and cross-device compatibility.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: origenImage,
+    live_demo_link:
+      "https://origenrealty.in/",
   },
+
   {
-    name: "Job IT",
+    name: "NPS Developers",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Production real-estate website for NPS Developers, where I independently handled almost the complete frontend development with a focus on responsive layouts, reusable components, interactive sections, and modern UI implementation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "typescript",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: npsImage,
+    live_demo_link:
+      "https://npsdevelopers.com/",
   },
+
   {
-    name: "Trip Guide",
+    name: "North Wind Estates",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Production real-estate website where I independently handled almost the complete frontend development, focusing on responsive design, reusable React components, visual interactions, and polished user experiences.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: northwindImage,
+    live_demo_link:
+      "https://www.northwindestates.com/",
+  },
+
+  {
+    name: "Shri Vrinda",
+    description:
+      "Production real-estate website where I independently handled almost the complete frontend development, implementing responsive layouts, reusable components, UI interactions, and cross-device compatibility.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: shrivrindaImage,
+    live_demo_link:
+      "https://www.shrivrinda.com/",
   },
 ];
-
 export { services, technologies, experiences, testimonials, projects };
