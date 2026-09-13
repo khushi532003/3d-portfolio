@@ -70,7 +70,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-12 flex flex-col xl:flex-row gap-10 overflow-visible">
 
       {/* Contact Form */}
       <motion.div

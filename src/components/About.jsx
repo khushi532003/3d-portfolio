@@ -108,10 +108,10 @@ const About = () => {
               className="
                 mt-4
                 text-secondary
-                text-[15px]
+                text-[12px]
                 sm:text-[17px]
                 max-w-3xl
-                leading-[26px]
+                leading-[22px]
                 sm:leading-[30px]
               "
             >

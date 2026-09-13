@@ -13,7 +13,7 @@ const Hero = () => {
       
       {/* Hero Text */}
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[180px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-30`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] md:top-[180px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-30`}
       >
         {/* Timeline Line */}
         <div className="flex flex-col justify-center items-center mt-5">
@@ -40,13 +40,14 @@ const Hero = () => {
   </p>
 
   {/* CTA Buttons */}
- <div className="flex flex-wrap gap-4 mt-8">
+ <div className="flex flex-wrap gap-2 sm:gap-4 mt-8">
 
   {/* View Projects */}
   <a
     href="#work"
     className="
-      px-6 py-3
+      px-4 py-2 sm:px-6 sm:py-3
+      text-sm sm:text-base
       rounded-lg
       bg-[#66bfe0]
       text-black
@@ -63,7 +64,8 @@ const Hero = () => {
   <a
     href="#contact"
     className="
-      px-6 py-3
+       px-4 py-2 sm:px-6 sm:py-3
+      text-sm sm:text-base
       rounded-lg
       border border-[#66bfe0]
       text-[#66bfe0]
@@ -82,7 +84,8 @@ const Hero = () => {
     href={brochurePdf}
     download
     className="
-      px-5 py-3
+       px-4 py-2 sm:px-6 sm:py-3
+      text-sm sm:text-base
       rounded-lg
       border border-white/70
       text-white

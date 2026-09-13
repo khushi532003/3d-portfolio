@@ -61,7 +61,7 @@ const ProjectCard = ({
 
           {/* Fixed Description Area */}
           <div className="mt-2 h-[110px] overflow-hidden">
-            <p className="text-secondary text-[14px] leading-[22px]">
+            <p className="text-secondary text-[12px] leading-[20px] sm:text-[14px] sm:leading-[22px]">
               {description}
             </p>
           </div>
@@ -109,7 +109,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-4 text-secondary  text-[12px] sm:text-[17px] max-w-3xl leading-[22px] sm:leading-[30px]"
         >
           A selection of my frontend and 3D web projects, combining
           React.js, Next.js, TypeScript, Three.js, React Three Fiber,
@@ -118,7 +118,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-10 md:mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
