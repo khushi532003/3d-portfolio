@@ -101,7 +101,7 @@ const Hero = () => {
       </div>
 
       {/* 3D Setup */}
-      <div className="absolute inset-0 w-full h-full z-20 pointer-events-none">
+      <div className="hidden md:block absolute inset-0 w-full h-full z-20 pointer-events-none">
         <Setup />
       </div>
 

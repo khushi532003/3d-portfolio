@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, "0.75")}
-      className="w-full sm:w-[360px]"
+      className="w-full sm:w-[360px] h-[570px]"
     >
       <Tilt
         options={{
@@ -27,16 +27,17 @@ const ProjectCard = ({
           scale: 1.02,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl w-full"
+        className="bg-tertiary p-5 rounded-2xl w-full h-full flex flex-col"
       >
-        <div className="relative w-full h-[230px]">
+        {/* Image */}
+        <div className="relative w-full h-[230px] flex-shrink-0">
           <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          {/* GitHub Button */}
+          {/* GitHub */}
           {source_code_link && (
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -51,36 +52,44 @@ const ProjectCard = ({
           )}
         </div>
 
-        <div className="mt-5">
+        {/* Content */}
+        <div className="mt-5 flex flex-col flex-1">
+
           <h3 className="text-white font-bold text-[24px]">
             {name}
           </h3>
 
-          <p className="mt-2 text-secondary text-[14px] leading-[22px]">
-            {description}
-          </p>
-        </div>
-
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={tag.name}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
+          {/* Fixed Description Area */}
+          <div className="mt-2 h-[110px] overflow-hidden">
+            <p className="text-secondary text-[14px] leading-[22px]">
+              {description}
             </p>
-          ))}
-        </div>
+          </div>
 
-        {/* Live Demo */}
-        {live_demo_link && (
-          <button
-            onClick={() => window.open(live_demo_link, "_blank")}
-            className="mt-5 px-4 py-2 rounded-lg bg-black text-white text-sm hover:bg-gray-800 transition"
-          >
-            Live Demo →
-          </button>
-        )}
+          {/* Tags */}
+          <div className="mt-4 min-h-[44px] flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={tag.name}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+
+          {/* Live Demo */}
+          {live_demo_link && (
+            <div className="mt-auto pt-5">
+              <button
+                onClick={() => window.open(live_demo_link, "_blank")}
+                className="px-4 py-2 rounded-lg bg-black text-white text-sm hover:bg-gray-800 transition"
+              >
+                Live Demo →
+              </button>
+            </div>
+          )}
+        </div>
       </Tilt>
     </motion.div>
   );

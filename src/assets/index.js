@@ -10,6 +10,7 @@ import gtf from "./company/gtf.svg";
 import paras from "./company/pp.png";
 import linkIcon from "./linkIcon.png";
 import portfolioImage from "./projects/portfolioImage.png";
+import marbleGameImage from "./projects/marbleGameImage.png";
 import characterControllerImage from "./projects/characterControllerImage.png";
 import gvr3dImage from "./projects/gvr3dImage.png";    
 import origenImage from "./projects/origenImage.png";
@@ -66,6 +67,7 @@ export {
   reactjs,
   nextjs,
   reactThreeFiber,
+  marbleGameImage,
   gsap,
   redux,
   tailwind,

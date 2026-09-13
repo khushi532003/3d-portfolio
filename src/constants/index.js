@@ -29,6 +29,7 @@ import {
   jobit,
   tripguide,
   portfolioImage,
+  marbleGameImage,
   characterControllerImage,
   gvr3dImage,
   origenImage,
@@ -225,6 +226,35 @@ const projects = [
       "https://github.com/khushi532003/character-controller",
     live_demo_link:
       "https://character-controller-chi.vercel.app/",
+  },
+
+  {
+    name: "Marble 3D Game",
+    description:
+      "An interactive physics-based 3D game built with React Three Fiber, Three.js, and React Three Rapier. Features real-time marble movement, keyboard controls, jumping mechanics, obstacles, and game state management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rapier",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: marbleGameImage,
+    source_code_link:
+      "https://github.com/khushi532003/marble-game",
+    live_demo_link:
+      "https://marble-game-rose.vercel.app/",
   },
 
   {
