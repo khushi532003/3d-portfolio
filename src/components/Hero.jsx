@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
-import brochurePdf from "../assets/brochure/khushi.pdf";
+import brochurePdf from "../assets/brochure/Khushi_Kashyap_ThreeJS_Developer.pdf";
 import BallParticle from "./canvas/BallParticle";
 import Setup from "./canvas/setup/Setup";
 
